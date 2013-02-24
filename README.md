@@ -5,7 +5,7 @@ __Usage__
 
 <code>
 <pre>
-"<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+``<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="jquery.simple.accordion.js"></script>
 <link rel="stylesheet" href="jquery.simple.accordion.css">
 
@@ -26,7 +26,7 @@ $(function () {
 	$("dl").SimpleAccordion();	
 
 });
-</script>"
+</script>``
 </pre>
 </code>
 
