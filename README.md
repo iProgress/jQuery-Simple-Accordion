@@ -7,16 +7,18 @@ __Usage__
 <code><script src="jquery.simple.accordion.js"></script></code>
 <code><link rel="stylesheet" href="jquery.simple.accordion.css"></code>
 
+```html
 <dl class="accordion">
 	<dt>Item 1</dt>
-	<dd class="active">Content</dd>
+		<dd class="active">Content</dd>
 	<dt>Item 2</dt>
-	<dd>Content</dd>
+		<dd>Content</dd>
 	<dt>Item 3</dt>
-	<dd>Content</dd>
+		<dd>Content</dd>
 	<dt>Item 4</dt>
-	<dd >Content</dd>
-</dl>	
+		<dd >Content</dd>
+</dl>
+```
 
 <script>
 $(function () {
