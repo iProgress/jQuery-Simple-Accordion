@@ -1,29 +1,56 @@
 # SimpleAccordion v1.0
 ==================
 
+Simple jQuery Accordion control for your apps. Just create HTML Definition List and apply plugin to it.
+
+Enjoy ;)
+
 __Usage__
 
-<code><script src="http://code.jquery.com/jquery-latest.min.js"></script></code>
-<code><script src="jquery.simple.accordion.js"></script></code>
-<code><link rel="stylesheet" href="jquery.simple.accordion.css"></code>
 
+
+```html
+// Dependencies
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="jquery.simple.accordion.js"></script>
+<link rel="stylesheet" href="jquery.simple.accordion.css">
+
+<!-- Accordion -->
 <dl class="accordion">
 	<dt>Item 1</dt>
-	<dd class="active">Content</dd>
+	<dd class="active"> <!-- Default to active -->
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		Sequi voluptatum enim nobis eligendi error consectetur nemo 
+		distinctio expedita quis illo ipsam minima id dicta quisquam 
+		repudiandae a repellat officia. Minus.
+		</p>
+	</dd>
+
 	<dt>Item 2</dt>
-	<dd>Content</dd>
+	<dd>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		Sequi voluptatum enim nobis eligendi error consectetur nemo 
+		distinctio expedita quis illo ipsam minima id dicta quisquam 
+		repudiandae a repellat officia. Minus.
+		</p>
+	</dd>
+
 	<dt>Item 3</dt>
-	<dd>Content</dd>
-	<dt>Item 4</dt>
-	<dd >Content</dd>
-</dl>	
+	<dd>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		Sequi voluptatum enim nobis eligendi error consectetur nemo 
+		distinctio expedita quis illo ipsam minima id dicta quisquam 
+		repudiandae a repellat officia. Minus.
+		</p>
+	</dd>
+</dl>
 
 <script>
 $(function () {
-
-	$("dl").SimpleAccordion();	
+	
+	// Apply to element 
+	$(".accordion").SimpleAccordion();	
 
 });
 </script>
-
-Enjoy ;)
+```

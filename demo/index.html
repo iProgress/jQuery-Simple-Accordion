@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple jQuery Accordion v1.0</title>
+	
+	<!-- Dependencies -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="../jquery.simple.accordion.js"></script>
+	<link rel="stylesheet" href="../jquery.simple.accordion.css">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+	<style>
+	body {
+		background: #555;
+		font-family: 'Poiret One', cursive;
+		margin: 30px auto;
+		width: 500px;
+	}
+	
+	h1{
+		color: #EFEFEF;
+		text-align: center;
+		text-shadow: 1px 1px 1px #333; 
+	}
+	</style>
+</head>
+<body>
+
+<h1>Simple jQuery Accordion v1.0</h1>
+
+<!-- Accordion -->
+<dl class="accordion">
+    <dt>Item 1</dt>
+    <dd class="active"> <!-- Default to active -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+    </dd>
+
+    <dt>Item 2</dt>
+    <dd>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+    </dd>
+
+    <dt>Item 3</dt>
+    <dd>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+    </dd>
+
+    <dt>Item 4</dt>
+    <dd>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+    </dd>
+
+    <dt>Item 5</dt>
+    <dd>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Sequi voluptatum enim nobis eligendi error consectetur nemo 
+        distinctio expedita quis illo ipsam minima id dicta quisquam 
+        repudiandae a repellat officia. Minus.
+        </p>
+
+    </dd>
+</dl>
+
+<script>
+$(function () {
+
+    // Apply to element 
+    $(".accordion").SimpleAccordion();  
+
+});
+
+</script>
+	
+</body>
+</html>
