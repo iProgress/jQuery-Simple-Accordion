@@ -1,4 +1,8 @@
-jQuery-Simple-Accordion
-=======================
+# SimpleAccordion v1.0
+==================
 
-Simple accordion plugin for jQuery
+__Usage__
+
+$("dl").SimpleAccordion();
+
+Enjoy ;)

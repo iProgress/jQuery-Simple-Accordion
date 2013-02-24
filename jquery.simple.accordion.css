@@ -1,0 +1,32 @@
+/* Accordion */
+dl.accordion {
+	background: #444;
+	width: 300px;
+	float: left;
+	margin-left: 10px;
+}
+
+dl.accordion dt {
+	background: #333;	
+	padding: 10px 10px 10px 20px;
+	border-bottom: 1px solid #222;
+	border-top: 1px solid #444;
+	color: #CCC;
+	cursor: pointer;
+}
+
+dl.accordion dd {
+	display: none;
+	background: #444;
+	color: #EFEFEF;
+	font-size: 12px;
+}
+
+dl.accordion dd p {
+	padding: 10px;
+}
+
+dl.accordion .active {
+	display: block;
+}
+
