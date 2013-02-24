@@ -3,11 +3,9 @@
 
 __Usage__
 
-<code>
-<pre>
-``<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="jquery.simple.accordion.js"></script>
-<link rel="stylesheet" href="jquery.simple.accordion.css">
+<code><script src="http://code.jquery.com/jquery-latest.min.js"></script></code>
+<code><script src="jquery.simple.accordion.js"></script></code>
+<code><link rel="stylesheet" href="jquery.simple.accordion.css"></code>
 
 <dl class="accordion">
 	<dt>Item 1</dt>
@@ -26,8 +24,6 @@ $(function () {
 	$("dl").SimpleAccordion();	
 
 });
-</script>``
-</pre>
-</code>
+</script>
 
 Enjoy ;)
