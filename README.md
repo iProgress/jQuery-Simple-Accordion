@@ -1,6 +1,10 @@
 # SimpleAccordion v1.0
 ==================
 
+Simple jQuery Accordion control for your apps. Just create HTML Definition List and apply plugin to it.
+
+Enjoy ;)
+
 __Usage__
 
 
@@ -50,5 +54,3 @@ $(function () {
 });
 </script>
 ```
-
-Enjoy ;)
