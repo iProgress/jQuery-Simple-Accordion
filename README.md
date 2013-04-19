@@ -3,6 +3,8 @@
 
 Simple jQuery Accordion control for your apps. Just create HTML Definition List and apply plugin to it.
 
+<a href="http://codepen.io/iProgress/pen/iuxIz">Live Demo</a>
+
 Enjoy ;)
 
 __Usage__
