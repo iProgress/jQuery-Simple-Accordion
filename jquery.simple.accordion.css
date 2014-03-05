@@ -6,7 +6,7 @@ dl.accordion {
 }
 
 dl.accordion dt {
-	background: #333;
+	background: #333;	
 	padding: 10px 10px 10px 10px;
 	border-bottom: 1px solid #222;
 	border-top: 1px solid #444;
@@ -30,3 +30,4 @@ dl.accordion dd p {
 dl.accordion .active {
 	display: block;
 }
+
